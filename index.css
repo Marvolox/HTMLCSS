@@ -1,0 +1,31 @@
+* {
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: larger;
+}
+
+h1 {
+    font-size: larger;
+}
+
+table {
+    background-color: wheat;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    background-color: beige;
+}
+
+a {
+    background-color: beige;
+}
+
+ol {
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

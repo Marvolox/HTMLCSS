@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dalmas' Page</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>DALMAS</h1>
+        <h1 id="mainheading">DALMAS</h1>
         <p>I am one of 8 billion on planet earth. I study at <a href="https://zinduaschool.com/">Zindua school</a>. I am motivated by the future and what it holds for humanity as well as my family and friends. I strive to learn more so i can benefit my community.</p>
         <!-- list of hobbies -->
         <h2>Hobbies</h2>
-        <img src="images.jpeg" alt="hobbies image">
-        <ol>
-            <li>Basketball</li>
-            <li>Video games</li>
-            <li>Board games</li>
-            <li>Reading</li>
-        </ol>
+        <img src="images.jpeg" alt="hobbies image" height="100px" width="300px">
+
+        <div>
+            <ol>
+                <li class="ordered">Basketball</li>
+                <li class="ordered">Video games</li>
+                <li class="ordered">Board games</li>
+                <li class="ordered">Reading</li>
+            </ol>
+        </div>
         <!-- list of interests -->
         <h2>Interests</h2>
         <ul>
@@ -28,11 +31,15 @@
         <!-- list of skills -->
         <h2>Skills</h2>
         <ol>
-            <li>Swimming</li>
-            <li>Writing</li>
+            <li class="ordered">Swimming</li>
+            <li class="ordered">Writing</li>
         </ol>
         <table>
-            <th>TOP 5 GAMES</th>
+            <h2>TOP 5 GAMES</h2>
+            <thead>
+                <th>RANK</th>
+                <th>GAME</th>
+            </thead>
             <tr>
                 <td>1</td>
                 <td>GTA 5</td>
